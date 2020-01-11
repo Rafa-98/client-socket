@@ -17,8 +17,9 @@ namespace Client_Async
         {
             Console.Title = "Server";
             LoopConnect();
-            SendLoop();
+            SendLoop(); 
             Console.ReadLine();
+
         }
 
         private static void SendLoop()
